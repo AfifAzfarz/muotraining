@@ -24,3 +24,4 @@ Route::get('/endpoint', function (Request $request) {
 });
 
 Route::get('post-list', [EndpointController::class, 'post']);
+Route::get('negeri-fetch', [EndpointController::class, 'fetchAndStore']);
